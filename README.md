@@ -1,0 +1,1 @@
+it is an one stop platform for engineering students from 1st to 4th year ,where they can get important questions ,pyqs , notes etc.this can help them to study for there exams wihtout moving here and there for resource.
