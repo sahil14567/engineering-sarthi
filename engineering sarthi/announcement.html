@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Engineering Sarthi</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #D5D8DC; /* Light grey background */
+            color: #1A5276; /* Dark text color */
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Full height */
+        }
+
+        /* Header Section */
+        header {
+            background-color: #2980B9; /* Bright blue */
+            color: #F7DC6F; /* Light yellow text */
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.8em;
+        }
+
+        header nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        header nav a {
+            color: #F7DC6F; /* Light yellow text */
+            text-decoration: none;
+            font-size: 1em;
+        }
+
+        header nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Content Area */
+        main {
+            flex: 1;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+
+        /* Overview Cards */
+        .overview-cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .card {
+            background-color: #F7DC6F; /* Light yellow background */
+            color: #1A5276; /* Dark text */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+            flex: 1;
+            max-width: 250px;
+            text-align: center;
+        }
+
+        .card h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            font-size: 1em;
+        }
+
+        .card a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background-color: #2980B9; /* Bright blue button */
+            color: #F7DC6F; /* Light yellow text */
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .card a:hover {
+            background-color: #1A5276; /* Darker blue */
+        }
+
+        /* Updates Section */
+        .updates {
+            background-color: #85C1E9; /* Light blue background */
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .updates h2 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+
+        .updates ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .updates li {
+            margin-bottom: 10px;
+            font-size: 1em;
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: #1A5276; /* Dark blue background */
+            color: #F7DC6F; /* Light yellow text */
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer a {
+            color: #F7DC6F; /* Light yellow text */
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    
+        <!-- Recent Updates Section -->
+        <section class="updates">
+            <h2>Recent Updates</h2>
+            <ul>
+                <li>We are glad to announce that we are finally done with our project</li>
+                <li>entire data for first year has been added .</li>
+                <li>for second year only IOT branch's syllabus is added </li>
+                <li>stay tuned for more branches.</li>
+            </ul>
+            
+        </section>
+        <p><a href="index.html" class="btn1"><button>Home</button></a></p>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Engineering Sarthi. All Rights Reserved.</p>
+        <a href="contact.html">Contact Us</a> | <a href="faq.html">FAQ</a>
+    </footer>
+</body>
+</html>

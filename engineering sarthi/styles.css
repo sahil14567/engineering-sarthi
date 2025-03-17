@@ -1,0 +1,623 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #1A5276; /* Darker text color for better readability */
+    text-align: center; /* Center-align all text by default */
+}
+
+/* Header Section */
+header {
+    background-color: #F7DC6F; /* Light yellow background */
+    color: #1A5276; /* Dark text color */
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #2980B9; /* Bright blue highlight */
+}
+
+#search-bar {
+    padding: 10px;
+    font-size: 1em;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 5px;
+    border: 1px solid #2980B9; /* Blue highlight for border */
+}
+
+/* Year Buttons Section */
+.year-buttons {
+    margin: 20px 0;
+}
+
+.year-buttons button {
+    background-color: #85C1E9; /* Light blue background */
+    color: #1A5276; /* Dark text color */
+    border: none;
+    padding: 15px 25px;
+    margin: 5px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.year-buttons button:hover {
+    background-color: #1A5276; /* Darker text color */
+    color: #F7DC6F; /* Light yellow text */
+}
+
+/* Hero Section */
+#hero {
+    background-color: #D4AC0D; /* Warm yellow background */
+    color: #1A5276; /* Dark text color */
+    padding: 40px 20px;
+}
+
+#hero h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#hero button {
+    background-color: #2980B9; /* Bright blue */
+    color: #F7DC6F; /* Light yellow text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#hero button:hover {
+    background-color: #1A5276; /* Darker blue */
+}
+
+/* Features Section */
+#features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #85C1E9; /* Light blue background */
+}
+
+.feature {
+    background-color: #F7DC6F; /* Light yellow background */
+    color: #1A5276; /* Dark text color */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    flex: 1;
+    max-width: 300px;
+}
+
+.feature img {
+    width: 50px;
+    height: 50px;
+}
+
+.feature h3 {
+    font-size: 1.5em;
+}
+
+.feature p {
+    font-size: 1em;
+}
+
+/* Testimonials Section */
+#testimonials {
+    background-color: #2980B9; /* Bright blue background */
+    color: #F7DC6F; /* Light yellow text */
+    padding: 20px;
+}
+
+.testimonial {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.testimonial p {
+    font-size: 1.2em;
+}
+
+.testimonial cite {
+    display: block;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+/* Latest Updates Section */
+#latest-updates {
+    padding: 20px;
+    background-color: #D4AC0D; /* Warm yellow background */
+    color: #1A5276; /* Dark text color */
+}
+
+/* Call-to-Action Section */
+#cta {
+    background-color: #85C1E9; /* Light blue background */
+    color: #1A5276; /* Dark text color */
+    padding: 20px;
+}
+
+#cta button {
+    background-color: #2980B9; /* Bright blue */
+    color: #F7DC6F; /* Light yellow text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#cta button:hover {
+    background-color: #1A5276; /* Darker blue */
+}
+
+/* Footer Section */
+footer {
+    background-color: #1A5276; /* Dark blue background */
+    color: #F7DC6F; /* Light yellow text */
+    padding: 20px;
+}
+
+footer button {
+    background-color: #F7DC6F; /* Light yellow background */
+    color: #1A5276; /* Dark text color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+footer button:hover {
+    background-color: #2980B9; /* Bright blue background */
+}
+
+/* Contact Form Styles */
+#contact-form {
+    background-color: #85C1E9; /* Light blue background */
+    color: #1A5276; /* Dark text color */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#contact-form h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#contact-form p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left; /* Align labels to the left */
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #2980B9; /* Bright blue border */
+}
+
+.form-group textarea {
+    resize: vertical; /* Allow vertical resizing only */
+}
+
+button[type="submit"] {
+    background-color: #2980B9; /* Bright blue */
+    color: #F7DC6F; /* Light yellow text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #1A5276; /* Darker blue */
+}
+
+/* Adjusted Menu Icon (Index Button) */
+.menu-icon {
+    cursor: pointer;
+    font-size: 1.5em;
+    background-color: #2980B9; /* Bright blue background */
+    color: #F7DC6F; /* Light yellow text */
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: absolute;
+    top: 20px;
+    right: 20px; /* Position the button on the right */
+    width: 3cm; /* Limit the width to 3cm */
+    text-align: center; /* Center-align the text */
+}
+
+.menu-icon:hover {
+    background-color: #1A5276; /* Darker blue on hover */
+}
+
+#dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 20px; /* Align the dropdown with the Index button */
+    background-color: #2980B9; /* Bright blue background */
+    border-radius: 5px;
+    z-index: 1000;
+    width: 3cm; /* Set the width of the dropdown menu to 3cm */
+}
+
+#dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#dropdown-menu ul li {
+    padding: 10px;
+    border-bottom: 1px solid #F7DC6F; /* Light yellow separator */
+}
+
+#dropdown-menu ul li a {
+    color: #F7DC6F; /* Light yellow text */
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+#dropdown-menu ul li:hover {
+    background-color: #1A5276; /* Darker blue on hover */
+}
+
+#dropdown-menu ul li a:hover {
+    color: #85C1E9; /* Light blue text on hover */
+}
+
+#dropdown-menu.show {
+    display: block; /* Show the dropdown when activated */
+}
+
+
+/*login page*/
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #1A5276; /* Darker text color */
+    background-color: #F7DC6F; /* Light yellow background */
+    text-align: center;
+}
+
+/* Header Section */
+header {
+    background-color: #2980B9; /* Bright blue background */
+    color: #F7DC6F; /* Light yellow text */
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+/* Main Content */
+#login-container {
+    background-color: #85C1E9; /* Light blue background */
+    color: #1A5276; /* Dark text color */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+#login-container h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #2980B9;
+}
+
+button {
+    background-color: #2980B9; /* Bright blue */
+    color: #F7DC6F; /* Light yellow text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1A5276; /* Darker blue */
+}
+
+/* Footer Section */
+footer {
+    background-color: #2980B9; /* Bright blue background */
+    color: #F7DC6F; /* Light yellow text */
+    padding: 20px;
+}
+
+ /* General Styles */
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #1A5276; /* Darker text color for better readability */
+    text-align: center; /* Center-align all text by default */
+}
+
+/* Header Section */
+header {
+    background-color: #F7DC6F; /* Light yellow background */
+    color: #1A5276; /* Dark text color */
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* Center align header content */
+    align-items: center;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    font-weight: bold;
+    color: #2980B9; /* Bright blue highlight */
+    font-family: 'Nunito Sans', Nunito Sans, monospace; /* Updated to a catchy font */
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #2980B9; /* Blue background */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Dropdown Container */
+.dropdown {
+    position: absolute;
+    right: 20px; /* Move dropdown to the right */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%);
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px;
+    right: 0; /* Align the dropdown to the right */
+}
+
+/* Dropdown Links */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+}
+
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #1A5276;
+}
+
+/* Year Buttons Section */
+.year-buttons {
+    margin: 20px 0;
+}
+
+.btn1 button {
+    background-color: #85C1E9; /* Light blue background */
+    color: #1A5276; /* Dark text color */
+    border: none;
+    padding: 15px 25px;
+    margin: 5px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.year-buttons button:hover {
+    background-color: #1A5276; /* Darker text color */
+    color: #F7DC6F; /* Light yellow text */
+}
+
+/* Hero Section */
+#hero {
+    background-color: #D4AC0D; /* Warm yellow background */
+    color: #1A5276; /* Dark text color */
+    padding: 40px 20px;
+}
+
+#hero h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#hero button {
+    background-color: #2980B9; /* Bright blue */
+    color: #F7DC6F; /* Light yellow text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#hero button:hover {
+    background-color: #1A5276; /* Darker blue */
+}
+
+/* Features Section */
+#features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #85C1E9; /* Light blue background */
+}
+
+.feature {
+    background-color: #F7DC6F; /* Light yellow background */
+    color: #1A5276; /* Dark text color */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    flex: 1;
+    max-width: 300px;
+}
+
+.feature img {
+    width: 50px;
+    height: 50px;
+}
+
+.feature h3 {
+    font-size: 1.5em;
+}
+
+.feature p {
+    font-size: 1em;
+}
+
+/* Testimonials Section */
+#testimonials {
+    background-color: #2980B9; /* Bright blue background */
+    color: #F7DC6F; /* Light yellow text */
+    padding: 20px;
+}
+
+.testimonial {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.testimonial p {
+    font-size: 1.2em;
+}
+
+.testimonial cite {
+    display: block;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+/* Latest Updates Section */
+#latest-updates {
+    padding: 20px;
+    background-color: #D4AC0D; /* Warm yellow background */
+    color: #1A5276; /* Dark text color */
+}
+
+/* Call-to-Action Section */
+#cta {
+    background-color: #85C1E9; /* Light blue background */
+    color: #1A5276; /* Dark text color */
+    padding: 20px;
+}
+
+#cta button {
+    background-color: #2980B9; /* Bright blue */
+    color: #F7DC6F; /* Light yellow text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#cta button:hover {
+    background-color: #1A5276; /* Darker blue */
+}
+
+/* Footer Section */
+footer {
+    background-color: #1A5276; /* Dark blue background */
+    color: #F7DC6F; /* Light yellow text */
+    padding: 20px;
+}
+
+footer button {
+    background-color: #F7DC6F; /* Light yellow background */
+    color: #1A5276; /* Dark text color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+footer button:hover {
+    background-color: #2980B9; /* Bright blue background */
+}
