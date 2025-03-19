@@ -1,35 +1,58 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "*.html",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "*.css",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "*.js",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*).html",
-      "dest": "/$1.html"
-    },
-    {
-      "src": "/(.*).css",
-      "dest": "/$1.css"
-    },
-    {
-      "src": "/(.*).js",
-      "dest": "/$1.js"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ]
+    "version": 2,
+    "builds": [
+        { "src": "index.html", "use": "@vercel/static" },
+        { "src": "aboutus.html", "use": "@vercel/static" },
+        { "src": "announcement.html", "use": "@vercel/static" },
+        { "src": "aoa.html", "use": "@vercel/static" },
+        { "src": "apmaths3.html", "use": "@vercel/static" },
+        { "src": "appliedchemestry.html", "use": "@vercel/static" },
+        { "src": "appliedchemistry-2.html", "use": "@vercel/static" },
+        { "src": "appliedmaths.html", "use": "@vercel/static" },
+        { "src": "appliedmaths2.html", "use": "@vercel/static" },
+        { "src": "appliedphy-2.html", "use": "@vercel/static" },
+        { "src": "appliedphysics.html", "use": "@vercel/static" },
+        { "src": "bee.html", "use": "@vercel/static" },
+        { "src": "beenotes.html", "use": "@vercel/static" },
+        { "src": "cg.html", "use": "@vercel/static" },
+        { "src": "chem2.html", "use": "@vercel/static" },
+        { "src": "chemnotes.html", "use": "@vercel/static" },
+        { "src": "contact.html", "use": "@vercel/static" },
+        { "src": "cprogram.html", "use": "@vercel/static" },
+        { "src": "cseiot.html", "use": "@vercel/static" },
+        { "src": "dbms.html", "use": "@vercel/static" },
+        { "src": "dlca.html", "use": "@vercel/static" },
+        { "src": "ds.html", "use": "@vercel/static" },
+        { "src": "dsgt.html", "use": "@vercel/static" },
+        { "src": "engineeringmechanics.html", "use": "@vercel/static" },
+        { "src": "faq.html", "use": "@vercel/static" },
+        { "src": "feedback.html", "use": "@vercel/static" },
+        { "src": "first-year.html", "use": "@vercel/static" },
+        { "src": "fourth-year.html", "use": "@vercel/static" },
+        { "src": "graphicnote.html", "use": "@vercel/static" },
+        { "src": "graphics.html", "use": "@vercel/static" },
+        { "src": "maths2.html", "use": "@vercel/static" },
+        { "src": "maths4.html", "use": "@vercel/static" },
+        { "src": "mathsnotes.html", "use": "@vercel/static" },
+        { "src": "mechnotes.html", "use": "@vercel/static" },
+        { "src": "MP.HTML", "use": "@vercel/static" },
+        { "src": "OS.HTML", "use": "@vercel/static" },
+        { "src": "phy2.html", "use": "@vercel/static" },
+        { "src": "physnotes.html", "use": "@vercel/static" },
+        { "src": "recentnews.html", "use": "@vercel/static" },
+        { "src": "resource.html", "use": "@vercel/static" },
+        { "src": "second-year.html", "use": "@vercel/static" },
+        { "src": "sem1.html", "use": "@vercel/static" },
+        { "src": "sem2.html", "use": "@vercel/static" },
+        { "src": "sem3.html", "use": "@vercel/static" },
+        { "src": "sem4.html", "use": "@vercel/static" },
+        { "src": "third-year.html", "use": "@vercel/static" },
+        { "src": "styles.css", "use": "@vercel/static" }
+    ],
+    "routes": [
+        { "src": "/(.*).html", "dest": "/$1.html" },
+        { "src": "/(.*).css", "dest": "/$1.css" },
+        { "src": "/(.*).js", "dest": "/$1.js" },
+        { "src": "/", "dest": "/index.html" }
+    ]
 }
